@@ -28,7 +28,7 @@ function(ped,probs,param,optim.param,fit=TRUE,optim.probs.indic=c(TRUE,TRUE,TRUE
 				my = min(y[,j],na.rm=T)
 				if (my<1) 
 				{
-				  # On doit modifier ped aussi car il est passé à la fonction e.step
+				  # On doit modifier ped aussi car il est passe a la fonction e.step
 				  ped[,6+j]	= y[,j] = as.integer(y[,j] + 1 - my)
 					warning("Values of symptom ",j," shifted by ",1-my," to set the minimum to 1.")
 				}

@@ -26,5 +26,5 @@ Description: This package performs a Latent Class Analysis of
         implemented. The package can deal with missing data.
 License: GPL
 LazyLoad: yes
-URL: https://cran.r-project.org/web/packages/LCAextend/index.html
+URL: https://CRAN.R-project.org/package=LCAextend
 Repository: CRAN

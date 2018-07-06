@@ -10,7 +10,7 @@ function(y,K,x=NULL,var.list=NULL)
 #        level <- as.numeric(levels(factor(y[,j])))
 #		level <- 1:max(level)
 # Simplification
-		level <- 1:max(y[,j])
+		level <- 1:max(y[,j],na.rm=T)
 		
 		alpha[[j]] <- matrix(NA,nrow=K,ncol=length(level)-1)
         for(k in 1:K)
